@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: black;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: center;
+  font-size: 14px;
+  color: white;
+}
+
+.App-footer {
+  background-color: black;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.welcome {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logoCss, .locationCss {
+  width: 20%;
+}
+
+.breadCrumbs {
+  margin: 20px 60px 0;
+  text-align: left;
+}
+
+.imageContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.imageCard {
+  border-radius: 5px;
+  border: 1px solid grey;
+  box-shadow: 2px 3px 10px gray;
+  margin: 30px;
+  cursor: pointer;
+  transition: transform .5s ease;
+}
+
+.imageCard:hover {
+  transform: scale(1.1);
+}
+
+.image {
+  height: 247px;
+  border-radius: 5px;
+}
+
+.imageButton {
+  background-color: #0074d9;
+  color: white;
+  padding: 16px;
+  border-radius: 0 0 4px 4px;
+}
+
+.selectLocation {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  margin-top: 32px;
+}
+
+ul li {
+  display: block;
+  position: relative;
+  background:white;
+  border: 1px solid grey;
+  text-align: left;
+}
+
+li ul { 
+  left: 100%;
+  top: 0;
+}
+
+ul li a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  white-space: nowrap;
+  color: black;
+}
+
+li:hover { background: lightgrey; }
